@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login page</title>
+</head>
+<body>
+	<h1 style="color:red">Welcome User, Please login</h1>
+	<br/>
+	<form action="http://localhost:9090/GETPOST/LoginServlet" method="get">
+		<table border>
+			<tr>
+				<td>Id</td>
+				<td><input type="text" name="uid" required placeholder="Id"/></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="text" name="upwd" required placeholder="password"/></td>
+			</tr>
+			<tr>
+				<td><input type="submit"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
