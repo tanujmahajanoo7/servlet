@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Signup</title>
+</head>
+<body>
+	<h2>Signup Form</h2>
+    <form action="http://localhost:9090/MVCArchitecture/SignupController">
+        <table border>
+            <tr>
+                <td><label for="kodid">Kod ID:</label></td>
+                <td><input type="text" id="kodid" name="kodid" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="text" id="male" name="gender" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="agree">
+                        <input type="checkbox" id="agree" name="agree" required> I agree to the terms and conditions.
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" class="submit-btn" value="Sign Up" name="signup"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
