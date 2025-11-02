@@ -21,7 +21,7 @@ This directory contains various Java servlet projects demonstrating different co
    - Go to **Window** → **Perspective** → **Open perspective** → **Other**
    - Select **JavaEE**
 
-   > [!TIP]
+> [!TIP]
    > You can also use the icon in the top right corner to quickly change perspective
 
 3. Add JAR files to Tomcat server:
